@@ -1,0 +1,156 @@
+body {
+  background: #25A9FC;
+}
+
+.box {
+  background: none;
+  display: block;
+  height: 420px;
+  margin: auto;
+  margin-top: 8%;
+  position: relative;
+  width: 600px;
+}
+
+.head {
+  background: #A6BECF;
+  border-radius: 50%;
+  height: 67%;
+  left: 25%;
+  position: absolute;
+  top: 16.5%;
+  width: 50%;
+}
+
+.head-copy {
+  background: #A6BECF;
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.ear-left {
+  background: #A6BECF;
+  border-radius: 50%;
+  height: 65%;
+  left: -20%;
+  position: absolute;
+  top: 5%;
+  width: 60%;
+  z-index: 1;
+
+}
+
+.ear-right {
+  background: #A6BECF;
+  border-radius: 50%;
+  height: 65%;
+  position: absolute;
+  right: -20%;
+  top: 5%;
+  width: 60%;
+  z-index: 1;
+
+}
+
+.ear-right-active {
+  background: #A6BECF;
+  border-radius: 50%;
+  height: 65%;
+  position: absolute;
+  right: -20%;
+  top: 5%;
+  width: 60%;
+  z-index: 1;
+}
+
+.inner-ear {
+  background: #819CAF;
+  border-radius: 50%;
+  height: 80%;
+  left: 10%;
+  position: absolute;
+  top: 10%;
+  width: 80%;
+}
+
+.eye-left {
+  background: white;
+  border-radius: 50%;
+  height: 33%;
+  left: 21%;
+  position: absolute;
+  top: 25%;
+  width: 30%;
+  z-index: 3;
+}
+
+.eye-right {
+  background: white;
+  border-radius: 50%;
+  height: 33%;
+  position: absolute;
+  right: 21%;
+  top: 25%;
+  width: 30%;
+  z-index: 3;
+}
+
+.pupil {
+  border-radius: 50%;
+  background: #27354A;
+  height: 30%;
+  left: 36%;
+  position: absolute;
+  top: 35%;
+  width: 28%;
+
+}
+
+.nose {
+  background: #BE845F;
+  border-radius: 50px;
+  height: 42.5%;
+  left: 37%;
+  position: absolute;
+  top: 45%;
+  width: 25%;
+  z-index: 4;
+}
+
+.hair-left {
+  background: #A6BECF;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  height: 20%;
+  left: 30%;
+  position: absolute;
+  top: -8%;
+  width: 20%;
+}
+
+.hair-right {
+  background: #A6BECF;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  height: 20%;
+  left: 48%;
+  position: absolute;
+  top: -4%;
+  width: 20%;
+}
+
+@media all and (max-width: 600px) {
+  .box {
+    background: none;
+    display: block;
+    height: 280px;
+    margin: auto;
+    margin-top: 2%;
+    position: relative;
+    width: 400px;
+
+  }
+}

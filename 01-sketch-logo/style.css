@@ -1,0 +1,97 @@
+:root {
+  --sunglow: #FDD231;
+  --peach: #FEEEB7;
+  --sOrange: #EA6C00;
+  --chYellow: #FDAD00;
+  --midPurple: #210E3D;
+}
+
+body{
+  background: var(--midPurple);
+}
+
+.box{
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  width: 600px;
+  height: 400px;
+}
+
+.large-bottom-triangle{
+  position: absolute;
+  width: 50%;
+  height: 60%;
+  left: 25%;
+  bottom: 5%;
+  background: var(--sOrange);
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+}
+
+.medium-bottom-triangle{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 20%;
+  background: var(--chYellow);
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+}
+
+.large-top-triangle{
+  position: absolute;
+  background: var(--peach);
+  width: 30%;
+  height: 20%;
+  left: 35%;
+  top: 15.1%;
+  -webkit-clip-path: polygon(100% 100%, 50% 0%, 0% 100%);
+  clip-path: polygon(100% 100%, 50% 0%, 0% 100%);
+}
+
+.right-top-triangle-left{
+  position: absolute;
+  background: var(--sunglow);
+  width: 10%;
+  height: 20%;
+  left: 25%;
+  top: 15.1%;
+  -webkit-clip-path: polygon(100% 100%, 100% 10%, 0% 100%);
+  clip-path: polygon(100% 100%, 100% 10%, 0% 100%);
+
+}
+
+.right-top-triangle-right{
+  position: absolute;
+  background:  var(--sunglow);
+  width: 10%;
+  height: 20%;
+  right: 25%;
+  top: 15.1%;
+  -webkit-clip-path: polygon(100% 100%, 0% 10%, 0% 100%);
+  clip-path: polygon(100% 100%, 0% 10%, 0% 100%);
+}
+
+.medium-top-triangle-left{
+  position: absolute;
+  background: var(--chYellow);
+  width: 15%;
+  height: 20%;
+  left: 35%;
+  top: 15.1%;
+  -webkit-clip-path: polygon(0% 100%, 100% 0%, 0% 10%);
+  clip-path: polygon(0% 100%, 100% 0%, 0% 10%);
+}
+
+.medium-top-triangle-right{
+  position: absolute;
+  background: var(--chYellow);
+  width: 15%;
+  height: 20%;
+  right: 35%;
+  top: 15.1%;
+  -webkit-clip-path: polygon(0% 0%, 100% 100%, 100% 10%);
+  clip-path: polygon(0% 0%, 100% 100%, 100% 10%);
+}

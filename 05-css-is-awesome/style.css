@@ -1,0 +1,29 @@
+:root {
+  --size: 300px;
+  --light-blue: #75AADB.;
+}
+
+.container {
+  border: 5px solid black;
+  height: var(--size);
+  margin: 0 auto;
+  position: relative;
+  width: var(--size);
+}
+
+.container .phrase::before {
+  color: black;
+  content: "css is awsome";
+  display: block;
+  font-family: Sans-Serif;
+  font-size: calc(var(--size) / 3);
+  height: 100%;
+  line-height: 1;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.container:hover {
+  border-color: var(--light-blue);
+}
